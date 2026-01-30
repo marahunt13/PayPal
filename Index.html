@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PawPal 🐾 Online Pet Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <img src="images/pawpal-logo.png" alt="PawPal Logo" class="logo" />
+  <h1>PawPal</h1>
+  <p>Your pet’s favorite place 🐶🐱</p>
+</header>
+
+<section class="mascot">
+  <img id="pal" src="images/pal-sit.png" alt="Pal the Mascot" />
+</section>
+
+<section class="products">
+  <div class="product">
+    <img src="images/toy-bone.png" />
+    <h3>Chewy Bone</h3>
+    <button onclick="addToCart()">Add to Treat Pile 🐾</button>
+  </div>
+
+  <div class="product">
+    <img src="images/catnip-mouse.png" />
+    <h3>Catnip Mouse</h3>
+    <button onclick="addToCart()">Add to Treat Pile 🐾</button>
+  </div>
+
+  <div class="product">
+    <img src="images/cozy-bed.png" />
+    <h3>Cozy Bed</h3>
+    <button onclick="addToCart()">Add to Treat Pile 🐾</button>
+  </div>
+</section>
+
+<footer>
+  <p>🛒 Treats in pile: <span id="cart">0</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
