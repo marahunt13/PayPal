@@ -1,0 +1,54 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff7ec;
+  text-align: center;
+}
+
+header {
+  background: #ffb347;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.mascot img {
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #ff7f50;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 160px;
+}
+
+.product img {
+  width: 100px;
+}
+
+.cart {
+  margin: 30px;
+  font-size: 20px;
+}
