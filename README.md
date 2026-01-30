@@ -1,2 +1,2 @@
-# PayPal
+# PawPal🐾
 PawPal Online Pet Store
